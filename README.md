@@ -79,10 +79,7 @@ Trigger deep link:
 "$HOME/Library/Android/sdk/platform-tools/adb" shell "am start -a android.intent.action.VIEW -d 'mybank://transfer?to=EvilHacker&amount=5000' -n com.example.androiddemoapp/.TransferActivity"
 ```
 
-## Screenshots
-
-Add your Android Studio emulator screenshots below:
-
+## Output
 <!-- Replace the src with your screenshot filename -->
 <img src="output.png" alt="ConfirmTransferActivity showing deep link parameters" width="300" />
 
