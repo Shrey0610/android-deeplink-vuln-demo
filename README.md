@@ -62,7 +62,7 @@ Build APK:
 ```bash
 cd "<path>/Android-demo-app"
 export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
-export JAVA_HOME="/Users/shreyshah/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home"
+export JAVA_HOME=".../Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home"
 export GRADLE_USER_HOME="$PWD/.gradle"
 ./gradlew assembleDebug
 ```
